@@ -1,9 +1,7 @@
 import os
 import discord
-from oauthlib.oauth2 import WebApplicationClient
 
 TOKEN = os.environ['TOKEN']
-
 client = discord.Client()
 
 @client.event
