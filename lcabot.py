@@ -2,7 +2,7 @@ import os
 import discord
 from oauthlib.oauth2 import WebApplicationClient
 
-TOKEN = 'abcdefg.fake.token.1234567'
+TOKEN = os.environ['TOKEN']
 
 client = discord.Client()
 
